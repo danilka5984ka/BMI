@@ -1,10 +1,10 @@
 public class BodyMassIndex {
 
-    public static double calculate(double i, double h) {
+    public static double calculate(double mass, double height) {
 
-        double BMI = i / (h * h);
+        double bmi = mass / (height * height);
 
-        return BMI;
+        return bmi;
     }
 
 
